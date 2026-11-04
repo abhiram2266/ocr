@@ -1,0 +1,21 @@
+device: cpu
+real images: 0 (train 0, val 0)
+epoch   1  loss 13.1570  synth_acc 0.000  (saved)
+epoch   2  loss 3.9526  synth_acc 0.000  (saved)
+epoch   3  loss 3.9182  synth_acc 0.000  (saved)
+epoch   4  loss 3.8642  synth_acc 0.000  (saved)
+epoch   5  loss 3.7908  synth_acc 0.000  (saved)
+epoch   6  loss 3.6477  synth_acc 0.000  (saved)
+epoch   7  loss 3.2861  synth_acc 0.000  (saved)
+epoch   8  loss 2.6593  synth_acc 0.003  (saved)
+epoch   9  loss 1.3567  synth_acc 0.442  (saved)
+epoch  10  loss 0.4067  synth_acc 0.807  (saved)
+epoch  11  loss 0.1779  synth_acc 0.973  (saved)
+epoch  12  loss 0.0262  synth_acc 0.959
+epoch  13  loss 0.0165  synth_acc 0.982  (saved)
+epoch  14  loss 0.0140  synth_acc 0.955
+epoch  15  loss 0.0113  synth_acc 0.970
+epoch  16  loss 0.0091  synth_acc 0.989  (saved)
+epoch  17  loss 0.0074  synth_acc 0.990  (saved)
+epoch  18  loss 0.0073  synth_acc 0.984
+epoch  19  loss 0.0068  synth_acc 0.995  (saved)

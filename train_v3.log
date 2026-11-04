@@ -1,0 +1,40 @@
+device: cpu
+real images: 0 (train 0, val 0)
+resumed from checkpoints/crnn.pt
+epoch   1  loss 0.1686  bold_acc 0.926  plain_acc 0.824  (saved)
+epoch   2  loss 0.1457  bold_acc 0.936  plain_acc 0.838  (saved)
+epoch   3  loss 0.1191  bold_acc 0.904  plain_acc 0.838  (saved)
+epoch   4  loss 0.1042  bold_acc 0.928  plain_acc 0.814
+epoch   5  loss 0.1004  bold_acc 0.914  plain_acc 0.802
+epoch   6  loss 0.0858  bold_acc 0.896  plain_acc 0.642
+epoch   7  loss 0.0758  bold_acc 0.924  plain_acc 0.778
+epoch   8  loss 0.0658  bold_acc 0.924  plain_acc 0.830
+epoch   9  loss 0.0528  bold_acc 0.944  plain_acc 0.866  (saved)
+epoch  10  loss 0.0488  bold_acc 0.884  plain_acc 0.896  (saved)
+epoch  11  loss 0.0436  bold_acc 0.946  plain_acc 0.914  (saved)
+epoch  12  loss 0.0431  bold_acc 0.916  plain_acc 0.892
+epoch  13  loss 0.0429  bold_acc 0.952  plain_acc 0.906
+epoch  14  loss 0.0412  bold_acc 0.966  plain_acc 0.936  (saved)
+epoch  15  loss 0.0316  bold_acc 0.974  plain_acc 0.936  (saved)
+epoch  16  loss 0.0330  bold_acc 0.970  plain_acc 0.938  (saved)
+epoch  17  loss 0.0340  bold_acc 0.966  plain_acc 0.940  (saved)
+epoch  18  loss 0.0294  bold_acc 0.984  plain_acc 0.964  (saved)
+epoch  19  loss 0.0252  bold_acc 0.986  plain_acc 0.966  (saved)
+epoch  20  loss 0.0222  bold_acc 0.984  plain_acc 0.970  (saved)
+epoch  21  loss 0.0218  bold_acc 0.984  plain_acc 0.972  (saved)
+epoch  22  loss 0.0251  bold_acc 0.988  plain_acc 0.970
+epoch  23  loss 0.0216  bold_acc 0.986  plain_acc 0.968
+epoch  24  loss 0.0219  bold_acc 0.984  plain_acc 0.970
+Traceback (most recent call last):
+  File "C:\Users\abhik\Desktop\ocr\train.py", line 159, in <module>
+    main()
+  File "C:\Users\abhik\Desktop\ocr\train.py", line 141, in main
+    sched.step()
+  File "C:\Users\abhik\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\optim\lr_scheduler.py", line 282, in step
+    self._update_lr(epoch)
+  File "C:\Users\abhik\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\optim\lr_scheduler.py", line 288, in _update_lr
+    values = self.get_lr()
+             ^^^^^^^^^^^^^
+  File "C:\Users\abhik\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\optim\lr_scheduler.py", line 2577, in get_lr
+    raise ValueError(
+ValueError: Tried to step 3936 times. The specified number of total steps is 3935

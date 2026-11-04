@@ -1,0 +1,15 @@
+device: cpu
+real images: 0 (train 0, val 0)
+resumed from checkpoints/crnn.pt
+epoch   1  loss 0.1496  synth_acc 0.929  (saved)
+epoch   2  loss 0.0568  synth_acc 0.947  (saved)
+epoch   3  loss 0.0378  synth_acc 0.960  (saved)
+epoch   4  loss 0.0276  synth_acc 0.962  (saved)
+epoch   5  loss 0.0268  synth_acc 0.975  (saved)
+epoch   6  loss 0.0189  synth_acc 0.985  (saved)
+epoch   7  loss 0.0191  synth_acc 0.985  (saved)
+epoch   8  loss 0.0132  synth_acc 0.987  (saved)
+epoch   9  loss 0.0122  synth_acc 0.993  (saved)
+epoch  10  loss 0.0119  synth_acc 0.991
+epoch  11  loss 0.0096  synth_acc 0.994  (saved)
+epoch  12  loss 0.0104  synth_acc 0.994  (saved)

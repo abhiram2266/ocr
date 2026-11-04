@@ -1,7 +1,2 @@
 __pycache__/
 *.pyc
-previews/
-data/test/
-checkpoints/*
-!checkpoints/crnn.pt
-*.log

@@ -1,0 +1,15 @@
+device: cpu
+real images: 0 (train 0, val 0)
+resumed from checkpoints/crnn.pt
+epoch   1  loss 0.2052  bold_acc 0.754  plain_acc 0.948  (saved)
+epoch   2  loss 0.1112  bold_acc 0.778  plain_acc 0.938  (saved)
+epoch   3  loss 0.0946  bold_acc 0.800  plain_acc 0.892  (saved)
+epoch   4  loss 0.0906  bold_acc 0.846  plain_acc 0.918  (saved)
+epoch   5  loss 0.0768  bold_acc 0.798  plain_acc 0.924
+epoch   6  loss 0.0724  bold_acc 0.798  plain_acc 0.808
+epoch   7  loss 0.0720  bold_acc 0.866  plain_acc 0.954  (saved)
+epoch   8  loss 0.0568  bold_acc 0.888  plain_acc 0.958  (saved)
+epoch   9  loss 0.0568  bold_acc 0.888  plain_acc 0.958  (saved)
+epoch  10  loss 0.0497  bold_acc 0.894  plain_acc 0.954  (saved)
+epoch  11  loss 0.0464  bold_acc 0.900  plain_acc 0.964  (saved)
+epoch  12  loss 0.0457  bold_acc 0.900  plain_acc 0.962  (saved)

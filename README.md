@@ -77,3 +77,9 @@ site before relying on these numbers.
 - `train.py`: training loop
 - `predict.py`: reading captchas
 - `samples/`: real captchas, named after their answers
+- `checkpoints/crnn.pt`: the final model. `crnn_v1.pt` to `crnn_v4.pt` are
+  earlier versions, kept as backups.
+- `data/test/bold`, `data/test/plain`: the held-out synthetic test sets
+  (500 images each)
+- `previews/`: example generator output
+- `train.log`, `train_v1.log` to `train_v4.log`: training logs for each version
